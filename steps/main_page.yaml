@@ -1,0 +1,15 @@
+goto_search:
+
+  - by: id
+    locator: 'com.xueqiu.android:id/post_status'
+    action: click
+
+  - by: id
+    locator: 'com.xueqiu.android:id/home_search'
+    action: click
+
+search:
+  - by: id
+    locator: 'com.xueqiu.android:id/search_input_text'
+    action: sendkey
+    value: '阿里巴巴'
