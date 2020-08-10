@@ -1,3 +1,7 @@
+import sys
+
+print(sys.path.append('../..'))
+
 import time
 
 import pytest

@@ -3,7 +3,7 @@ from appium import webdriver
 from UI_Frame.page.base_page import BasePage
 from UI_Frame.page.main_page import MainPage
 
-
+#App启动页，包含APP启动参数，重启，停止，跳转至首页
 class App(BasePage):
     def start(self):
         if self.driver==None:

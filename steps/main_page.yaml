@@ -4,6 +4,9 @@ goto_search:
     locator: 'com.xueqiu.android:id/post_status'
     action: click
 
+  - time: 1
+    action: sleep
+
   - by: id
     locator: 'com.xueqiu.android:id/home_search'
     action: click
